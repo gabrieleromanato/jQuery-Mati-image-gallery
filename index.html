@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery: Mati image gallery</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" />
+</head>
+
+<body>
+
+<div id="gallery">
+	<ul id="gallery-navigation">
+		<li><a href="#" rel="#set1">Set 1</a></li>
+		<li><a href="#" rel="#set2">Set 2</a></li>
+	</ul>
+	<div id="gallery-container">
+	
+	  <div id="gallery-wrapper">
+	
+		<div class="gallery-set" id="set1">
+		
+			<ul>
+			
+				<li>
+					<img src="img/1-thumb.jpg" alt="Lorem ipsum 1" />
+					<img src="img/2-thumb.jpg" alt="Lorem ipsum 2" />
+					<img src="img/3-thumb.jpg" alt="Lorem ipsum 3" />
+					<img src="img/4-thumb.jpg" alt="Lorem ipsum 4" />
+				</li>
+				
+				<li>
+					<img src="img/5-thumb.jpg" alt="Lorem ipsum 5" />
+					<img src="img/6-thumb.jpg" alt="Lorem ipsum 6" />
+					<img src="img/7-thumb.jpg" alt="Lorem ipsum 7" />
+					<img src="img/8-thumb.jpg" alt="Lorem ipsum 8" />
+				</li>
+
+			
+			</ul>
+		
+		</div>
+		
+		<div class="gallery-set" id="set2">
+		
+			<ul>
+			
+				<li>
+					<img src="img/1-thumb.jpg" alt="Lorem ipsum 1" />
+					<img src="img/2-thumb.jpg" alt="Lorem ipsum 2" />
+					<img src="img/3-thumb.jpg" alt="Lorem ipsum 3" />
+					<img src="img/4-thumb.jpg" alt="Lorem ipsum 4" />
+				</li>
+				
+				<li>
+					<img src="img/5-thumb.jpg" alt="Lorem ipsum 5" />
+					<img src="img/6-thumb.jpg" alt="Lorem ipsum 6" />
+					<img src="img/7-thumb.jpg" alt="Lorem ipsum 7" />
+					<img src="img/8-thumb.jpg" alt="Lorem ipsum 8" />
+				</li>
+
+			
+			</ul>
+		
+		</div>
+		
+	  </div>
+
+		<div id="gallery-preview">
+			<a href="#" id="gallery-close">Close</a>
+		</div>
+	</div>
+	
+	<div id="gallery-progress">
+	
+		<div id="gallery-progress-indicator"></div>
+		<a href="#" id="gallery-play-pause">Play/Pause</a>
+	
+	</div>
+	
+	<a href="#" id="prev">Previous</a>
+	<a href="#" id="next">Next</a>
+	
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
+
+</body>
+</html>

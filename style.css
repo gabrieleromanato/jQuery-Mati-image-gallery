@@ -1,0 +1,142 @@
+#gallery {
+	width: 800px;
+	margin: 2em auto;
+	position: relative;
+}
+
+#gallery * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery-navigation {
+	height: 2em;
+}
+
+#gallery-navigation li {
+	float: left;
+	height: 100%;
+	margin-right: 0.3em;
+}
+
+#gallery-navigation a {
+	float: left;
+	padding: 0.5em 1em;
+	background: #222;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#gallery-navigation a:hover {
+	background: #333;
+}
+
+#gallery-container {
+	width: 100%;
+	height: 305px;
+	position: relative;
+	overflow: hidden;
+}
+
+#gallery-wrapper {
+	width: 1600px;
+	height: 305px;
+	position: relative;
+	
+}
+
+#gallery-wrapper div.gallery-set {
+	width: 800px;
+	height: 305px;
+	float: left;
+}
+
+#gallery-wrapper div.gallery-set ul li {
+	overflow: hidden;
+}
+
+#gallery-wrapper div.gallery-set ul li img {
+	float: left;
+	cursor: pointer;
+}
+
+#gallery-progress {
+
+	height: 24px;
+	width: 100%;
+	position: relative;
+
+}
+
+#gallery-progress div {
+	height: 4px;
+	width: 768px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	background: #aaa;
+	margin-top: -2px;
+}
+
+#gallery-progress a {
+	float: right;
+	width: 22px;
+	height: 24px;
+	text-indent: -1000em;
+	background: url(img/play.png) no-repeat 50% 0;
+}
+
+#gallery-preview {
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#gallery-preview img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#gallery-preview a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #222;
+	color: #fff;
+	padding: 0.4em;
+	font-weight: bold;
+	text-decoration: none;
+	z-index: 2;
+}
+
+#gallery-preview a:hover {
+	background: #333;
+}
+
+#gallery #prev,
+#gallery #next {
+	width: 20px;
+	height: 136px;
+	text-indent: -1000em;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -68px;
+}
+
+#gallery #prev {
+	left: -20px;
+	background: url(img/prev.png) no-repeat;
+}
+#gallery #next {
+	right: -20px;
+	background: url(img/next.png) no-repeat;
+}
